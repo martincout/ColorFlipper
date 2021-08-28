@@ -74,18 +74,28 @@ a:visited{
 	font-family:Arial;
 	font-size:15px;
 	font-weight:bold;
-	padding:6px 24px;
-    margin-top: 10px;
+	padding:7px 35px;
+    margin-top: 40px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #cc9f52;
     -webkit-user-select: none; /* Safari */
     -moz-user-select: none; /* Old Mozilla */
     -ms-user-select: none; /* Internet Explorer/Edge */
     user-select: none; 
+    text-transform: uppercase;
+    transition: all 0.2s ease-out;
 }
+.clickme p{
+    margin: 0;
+}
+
 .clickme:hover {
-	background:linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
-	background-color:#fb9e25;
+	background: transparent;
+	background-color: white;
+    text-shadow: none;
+    border-color: black;
+    color: black;
+    transition: all 0.5s ease-in-out;
 }
 .clickme:active {
 	position:relative;
