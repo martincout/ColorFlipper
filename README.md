@@ -7,7 +7,7 @@ A web page that changes the color of the background with a button.
 - Uses an Array of hex values and color names
 - When you click the button the background changes its color
 - It tells you what is the current color of the background
-- Randomise the color selection.
+- Clicking the button selects a random color
 
 ## Screenshot
 
